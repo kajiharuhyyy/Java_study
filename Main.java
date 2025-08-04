@@ -1,12 +1,15 @@
 public class Main {
     public static void main(String[] args) {
 
-        String tenki = "はれ";
-        if (tenki.equals("はれ")) 
-            System.out.println("洗濯します");
-         else 
-            System.out.println("家にいます");
-        
-
+        int[] scores = new int[]{20, 30, 40, 50, 60};
+        int count = 0;
+        for(int i = 0; i < scores.length; i++) {
+            if(scores[i] >= 20) {
+                count++;
+            }
+        }
+        //int avg = sum / scores.length;
+        System.out.println(count);
+        //System.out.println(avg);
     }
 }
