@@ -1,15 +1,11 @@
+import javax.sql.rowset.spi.SyncFactory;
+
 public class Main {
     public static void main(String[] args) {
 
-        int[] scores = new int[]{20, 30, 40, 50, 60};
-        int count = 0;
-        for(int i = 0; i < scores.length; i++) {
-            if(scores[i] >= 20) {
-                count++;
-            }
-        }
-        //int avg = sum / scores.length;
-        System.out.println(count);
-        //System.out.println(avg);
+        int[][] scores = {{40, 50, 60}, {80, 60, 70}};
+        System.out.println(scores[1][1]);
+        System.out.println(scores.length);
+        System.out.println(scores[0].length);
     }
 }
