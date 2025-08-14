@@ -1,11 +1,12 @@
-import javax.sql.rowset.spi.SyncFactory;
-
 public class Main {
     public static void main(String[] args) {
 
-        int[][] scores = {{40, 50, 60}, {80, 60, 70}};
-        System.out.println(scores[1][1]);
-        System.out.println(scores.length);
-        System.out.println(scores[0].length);
+        System.out.println("メソッド");
+        hello();
+        System.out.println("終了");
+    }
+
+    public static void hello() {
+        System.out.println("こんにちは");
     }
 }
