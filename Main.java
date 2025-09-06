@@ -1,10 +1,12 @@
 public class Main {
-    public static int add(int x, int y){
-        int ans = x + y;
-        return ans;
-    }
     public static void main(String[] args) {
-        int ans = add(100, 10);
-        System.out.println("100 + 10 = " + ans);
+        System.err.println("メソッド呼び出すぞい");
+        hello("wii");
+        hello("WEEE");
+        hello("wooo");
+        System.err.println("呼び出したぞい");
+    }
+    public static void hello(String name) {
+        System.err.println(name + "さん");
     }
 }
