@@ -8,6 +8,9 @@ public class Main {
     System.out.println(h2.hp);
     System.out.println(h2.name);
 
+    Hero h3 = new Hero();
+    System.out.println(h3.name);
+
     Matango m1 = new Matango();
     m1.hp = 50;
     m1.suffix = 'A';
