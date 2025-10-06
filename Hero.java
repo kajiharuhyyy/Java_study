@@ -4,6 +4,16 @@ public class Hero {
     int hp;
     Sword sword;
 
+    public Hero(String name) {
+        this.hp = 100;
+        this.name = name;
+    }
+
+    public Hero() {
+        this.hp = 100;
+        this.name = "ダミー";
+    }
+
     public void attack() {
         System.out.println(this.name + "は攻撃した!");
         System.out.println("的に５ポイントのダメージを与えた!");
@@ -27,8 +37,8 @@ public class Hero {
     }
 
     public void run() {
-      System.out.println(this.name + "は、逃げ出した!");
-      System.out.println("GAMEOVER");
-      System.out.println("最終HPは" + this.hp + "でした");  
+        System.out.println(this.name + "は、逃げ出した!");
+        System.out.println("GAMEOVER");
+        System.out.println("最終HPは" + this.hp + "でした");  
     }
 }

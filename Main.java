@@ -1,12 +1,12 @@
 public class Main {
   public static void main(String[] args) {
-    Hero h = new Hero();
-    h.name = "ミナト";
-    h.hp = 100;
+    Hero h = new Hero("ミナト");
+    System.out.println(h.hp);
+    System.out.println(h.name);
 
-    Hero h2 = new Hero();
-    h2.name = "アサカ";
-    h2.hp = 100;
+    Hero h2 = new Hero("アサカ");
+    System.out.println(h2.hp);
+    System.out.println(h2.name);
 
     Matango m1 = new Matango();
     m1.hp = 50;
