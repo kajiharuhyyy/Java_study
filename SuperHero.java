@@ -8,10 +8,10 @@ public class SuperHero extends Hero{
 
     public void land() {
         this.flying = false;
-        System.out.println("着地した！");
+        System.out.println("着地した!");
     }
 
     public void run() {
-        System.out.println(this.name + "は撤退した");
+        System.out.println(this.name + "は撤退した!");
     }
 }

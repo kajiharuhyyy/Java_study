@@ -1,21 +1,22 @@
 
 public class Hero {
-    String name;
-    int hp;
+    String name = "ミナト";
+    int hp = 100;
     Sword sword;
 
-    public Hero(String name) {
-        this.hp = 100;
-        this.name = name;
-    }
+    // public Hero(String name) {
+    //     this.hp = 100;
+    //     this.name = name;
+    // }
 
-    public Hero() {
-        this("ダミー");
-    }
+    // public Hero() {
+    //     this("ダミー");
+    // }
 
-    public void attack() {
+    public void attack(Matango m) {
         System.out.println(this.name + "は攻撃した!");
-        System.out.println("的に５ポイントのダメージを与えた!");
+        m.hp -= 5;
+        System.out.println("敵に５ポイントのダメージを与えた!");
     }
 
     public void sleep() {

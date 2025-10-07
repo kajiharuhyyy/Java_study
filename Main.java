@@ -1,12 +1,12 @@
 public class Main {
   public static void main(String[] args) {
-    Hero h = new Hero("ミナト");
+    Hero h = new Hero();
     System.out.println(h.hp);
     System.out.println(h.name);
 
-    Hero h2 = new Hero("アサカ");
-    System.out.println(h2.hp);
-    System.out.println(h2.name);
+    // Hero h2 = new Hero("アサカ");
+    // System.out.println(h2.hp);
+    // System.out.println(h2.name);
 
     Hero h3 = new Hero();
     System.out.println(h3.name);
@@ -31,14 +31,6 @@ public class Main {
 
     SuperHero sh = new SuperHero();
     
-    h.attack();
-    h.slip();
-    w.heal(h);
-    w.heal(h2);
-    w.heal(h2);
-    m1.run();
-    m2.run();
-
     h.run();
     sh.run();
 
