@@ -28,6 +28,8 @@ public class Main {
     Wizard w = new Wizard();
     w.name = "スガワラ";
     w.hp = 50;
+
+    SuperHero sh = new SuperHero();
     
     h.attack();
     h.slip();
@@ -38,7 +40,7 @@ public class Main {
     m2.run();
 
     h.run();
-
+    sh.run();
 
   }
 
