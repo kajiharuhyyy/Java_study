@@ -30,6 +30,8 @@ public class Main {
     w.hp = 50;
 
     SuperHero sh = new SuperHero();
+
+    // Weapon w = new Weapon();
     
     h.run();
     sh.run();

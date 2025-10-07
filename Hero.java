@@ -9,9 +9,9 @@ public class Hero {
     //     this.name = name;
     // }
 
-    // public Hero() {
-    //     this("ダミー");
-    // }
+    public Hero() {
+        System.out.println("Heroのコンストラクタが動作");
+    }
 
     public void attack(Matango m) {
         System.out.println(this.name + "は攻撃した!");
