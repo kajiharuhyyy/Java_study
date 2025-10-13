@@ -29,12 +29,17 @@ public class Main {
     w.name = "スガワラ";
     w.hp = 50;
 
+    Matango m = new Matango();
+
     SuperHero sh = new SuperHero();
 
     // Weapon w = new Weapon();
     
     h.run();
     sh.run();
+    w.name = "アサカ";
+    w.attack(m);
+    w.fireball(m);
 
   }
 
